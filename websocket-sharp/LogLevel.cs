@@ -62,6 +62,6 @@ namespace WebSocketSharp
     /// <summary>
     /// No more logging at all
     /// </summary>
-    None
+    None = Int32.MaxValue
   }
 }
