@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Websocket Sharp Core", "websocket-sharp\Websocket Sharp Core.csproj", "{93A13816-17BF-4260-825D-C891FAABEF36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Core", "Example\Example.Core.csproj", "{A1721659-8819-4468-A807-B6D8B844C730}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example2.Core", "Example2\Example2.Core.csproj", "{E6F807C4-B026-41BF-9090-FF07B69F6072}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example3.Core", "Example3\Example3.Core.csproj", "{092A7634-5E5E-43CA-87C6-8280592BC3DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Ubuntu|Any CPU = Debug_Ubuntu|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release_Ubuntu|Any CPU = Release_Ubuntu|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93A13816-17BF-4260-825D-C891FAABEF36}.Debug_Ubuntu|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A13816-17BF-4260-825D-C891FAABEF36}.Debug_Ubuntu|Any CPU.Build.0 = Debug|Any CPU
+		{93A13816-17BF-4260-825D-C891FAABEF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A13816-17BF-4260-825D-C891FAABEF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A13816-17BF-4260-825D-C891FAABEF36}.Release_Ubuntu|Any CPU.ActiveCfg = Release|Any CPU
+		{93A13816-17BF-4260-825D-C891FAABEF36}.Release_Ubuntu|Any CPU.Build.0 = Release|Any CPU
+		{93A13816-17BF-4260-825D-C891FAABEF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A13816-17BF-4260-825D-C891FAABEF36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1721659-8819-4468-A807-B6D8B844C730}.Debug_Ubuntu|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1721659-8819-4468-A807-B6D8B844C730}.Debug_Ubuntu|Any CPU.Build.0 = Debug|Any CPU
+		{A1721659-8819-4468-A807-B6D8B844C730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1721659-8819-4468-A807-B6D8B844C730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1721659-8819-4468-A807-B6D8B844C730}.Release_Ubuntu|Any CPU.ActiveCfg = Release|Any CPU
+		{A1721659-8819-4468-A807-B6D8B844C730}.Release_Ubuntu|Any CPU.Build.0 = Release|Any CPU
+		{A1721659-8819-4468-A807-B6D8B844C730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1721659-8819-4468-A807-B6D8B844C730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6F807C4-B026-41BF-9090-FF07B69F6072}.Debug_Ubuntu|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F807C4-B026-41BF-9090-FF07B69F6072}.Debug_Ubuntu|Any CPU.Build.0 = Debug|Any CPU
+		{E6F807C4-B026-41BF-9090-FF07B69F6072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F807C4-B026-41BF-9090-FF07B69F6072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F807C4-B026-41BF-9090-FF07B69F6072}.Release_Ubuntu|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F807C4-B026-41BF-9090-FF07B69F6072}.Release_Ubuntu|Any CPU.Build.0 = Release|Any CPU
+		{E6F807C4-B026-41BF-9090-FF07B69F6072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F807C4-B026-41BF-9090-FF07B69F6072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092A7634-5E5E-43CA-87C6-8280592BC3DC}.Debug_Ubuntu|Any CPU.ActiveCfg = Debug|Any CPU
+		{092A7634-5E5E-43CA-87C6-8280592BC3DC}.Debug_Ubuntu|Any CPU.Build.0 = Debug|Any CPU
+		{092A7634-5E5E-43CA-87C6-8280592BC3DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092A7634-5E5E-43CA-87C6-8280592BC3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092A7634-5E5E-43CA-87C6-8280592BC3DC}.Release_Ubuntu|Any CPU.ActiveCfg = Release|Any CPU
+		{092A7634-5E5E-43CA-87C6-8280592BC3DC}.Release_Ubuntu|Any CPU.Build.0 = Release|Any CPU
+		{092A7634-5E5E-43CA-87C6-8280592BC3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092A7634-5E5E-43CA-87C6-8280592BC3DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {699BA048-0B42-4ACD-9BEE-2DCDB5735DA7}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = websocket-sharp\websocket-sharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal
