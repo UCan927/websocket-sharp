@@ -1,6 +1,7 @@
 <Project>
   <PropertyGroup>
     <PackageReleaseNotes>* 2022.0.02.23
+  - Increase the log level so that the internal log can not be recorded;
   - Update to netstandard2.0;</PackageReleaseNotes>
   </PropertyGroup>
 </Project>
