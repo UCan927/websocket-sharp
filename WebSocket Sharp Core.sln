@@ -11,6 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example2.Core", "Example2\E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example3.Core", "Example3\Example3.Core.csproj", "{092A7634-5E5E-43CA-87C6-8280592BC3DC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF9107F4-9439-4696-867B-7FA073F5406D}"
+	ProjectSection(SolutionItems) = preProject
+		ReleaseNotes.csproj.import = ReleaseNotes.csproj.import
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug_Ubuntu|Any CPU = Debug_Ubuntu|Any CPU

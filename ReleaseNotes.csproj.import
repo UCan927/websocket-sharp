@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <PackageReleaseNotes>* 2022.0.02.23
+  - Update to netstandard2.0;</PackageReleaseNotes>
+  </PropertyGroup>
+</Project>
