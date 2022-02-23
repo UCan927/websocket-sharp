@@ -2,12 +2,12 @@
 
   <Import Project="$(SolutionDir)\ReleaseNotes.csproj.import" />
   <PropertyGroup>
-    <PackageId>WebsocketSharp.Core</PackageId>
+    <PackageId>WebsocketSharp.Standard2</PackageId>
     <RootNamespace>WebsocketSharp.Core</RootNamespace>
     <AssemblyName>WebsocketSharp.Core</AssemblyName>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Version>2022.0.02.23</Version>
-    <Product>WebsocketSharp.Core - efae8e82</Product>
+    <Product>WebsocketSharp.Core - 3d41901f</Product>
     <Authors>sta.blockhead</Authors>
     <Description>A C# implementation of the WebSocket protocol client and server</Description>
     <Copyright>Copyright © sta.blockhead 2010-2022</Copyright>
@@ -15,12 +15,16 @@
     <RepositoryUrl>https://github.com/sta/websocket-sharp</RepositoryUrl>
     <RespositoryType>git</RespositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>websocket-sharp_icon.png</PackageIcon>
     <PackageTags>WebSocket;.NETCore;</PackageTags>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>websocket-sharp.snk</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="..\websocket-sharp_icon.png" Link="Images\websocket-sharp_icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Remove="AssemblyInfo.cs" />
   </ItemGroup>
