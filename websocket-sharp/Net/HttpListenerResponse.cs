@@ -123,7 +123,7 @@ namespace WebSocketSharp.Net
         }
 
         if (headers["Server"] == null)
-          headers.InternalSet ("Server", "websocket-sharp/1.0", true);
+          headers.InternalSet ("Server", Server.WebSocketServer.Headers_Server, true);
 
         if (headers["Date"] == null) {
           headers.InternalSet (

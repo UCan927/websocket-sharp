@@ -67,7 +67,7 @@ namespace WebSocketSharp
     internal HttpRequest (string method, string uri)
       : this (method, uri, HttpVersion.Version11, new NameValueCollection ())
     {
-      Headers["User-Agent"] = "websocket-sharp/1.0";
+      Headers["User-Agent"] = WebSocket.Header_UserAgent;
     }
 
     #endregion

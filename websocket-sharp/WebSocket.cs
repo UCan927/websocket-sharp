@@ -329,6 +329,20 @@ namespace WebSocketSharp
     #endregion
 
     #region Public Properties
+    private static string _header_UserAgent = "websocket-sharp/1.0";
+    public static String Header_UserAgent {
+        get
+        {
+            return _header_UserAgent;
+        }
+        set
+        {
+            if (String.IsNullOrWhiteSpace(value))
+                _header_UserAgent = String.Empty;
+            else
+                _header_UserAgent = value;
+        }
+    }
 
     /// <summary>
     /// Gets or sets the compression method used to compress a message.

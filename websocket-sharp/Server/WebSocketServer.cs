@@ -318,6 +318,20 @@ namespace WebSocketSharp.Server
     #endregion
 
     #region Public Properties
+    private static string _headers_Server = "websocket-sharp/1.0";
+    public static String Headers_Server {
+        get
+        {
+            return _headers_Server;
+        }
+        set
+        {
+            if (String.IsNullOrWhiteSpace(value))
+                _headers_Server = String.Empty;
+            else
+                _headers_Server = value;
+        }
+    }
 
     /// <summary>
     /// Gets the IP address of the server.
