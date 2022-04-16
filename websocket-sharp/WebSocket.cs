@@ -1459,6 +1459,23 @@ namespace WebSocketSharp
             return ret;
         }
 
+        private NameValueCollection _userHeaders = new NameValueCollection();
+
+        public void AddUserHeader(String name, String value)
+        {
+            _userHeaders.Add(name, value);
+        }
+
+        public void RemoveUserHeader(String name)
+        {
+            _userHeaders.Remove(name);
+        }
+
+        public void ClearUserHeader()
+        {
+            _userHeaders.Clear();
+        }
+
         // As client
         private HttpRequest createHandshakeRequest()
         {
@@ -1496,6 +1513,14 @@ namespace WebSocketSharp
 
             if (_cookies.Count > 0)
                 ret.SetCookies(_cookies);
+
+            if (_userHeaders != null && _userHeaders.Count > 0)
+            {
+                foreach (String header in _userHeaders)
+                {
+                    headers.Add(header, _userHeaders[header]);
+                }
+            }
 
             return ret;
         }
