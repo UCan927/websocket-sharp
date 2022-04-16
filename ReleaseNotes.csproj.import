@@ -1,6 +1,8 @@
 <Project>
   <PropertyGroup>
-    <PackageReleaseNotes>* 2022.2.24.1320
+    <PackageReleaseNotes>* 2022.04.16.1520
+  - Open UserHeader set/modify/clear interface;
+* 2022.2.24.1320
   - Open Request/Response Header about User-Agent or Server settings;
 * 2022.2.23.2317
   - Increase the log level so that the internal log can be set to not log at all;
